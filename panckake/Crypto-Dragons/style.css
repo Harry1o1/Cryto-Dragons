@@ -47,7 +47,7 @@ main{
       /* flex-direction: column; */
       /* row-gap: 100px !important; */
     background: var(--body-bg);
-    min-height: 600vh;
+    min-height: 1500vh !important;
     
     width: 100%;
     
@@ -127,6 +127,7 @@ font-size: 900;
     main{
         
         left: 70px;
+        min-height: 700vh;;
         
     }
     /* main h1{
