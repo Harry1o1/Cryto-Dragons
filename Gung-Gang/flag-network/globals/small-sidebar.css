@@ -1,0 +1,153 @@
+@import url(./variables.css);
+
+
+
+@keyframes menuPopup {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% { transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}
+
+@keyframes small-sidebar{
+    
+    0%{
+        width: 0;
+        
+    }
+    100%{
+        
+        width: 300px;
+    }
+}
+
+#small-sidebar{
+    
+    display: none;
+    background: var(--sidebar-bg);
+    border-right: var(--border-color);
+    /* animation: small-sidebar 1s ease forwards; */
+    /* animation: menuPopup 0.8s ease forwards; */
+    /* transition: all 1s linear; */
+    /* min-height: 100vh; */
+    /* width: 330px; */
+    height: 0;
+    width: 0;
+    
+    position: fixed;
+    top: 50px;
+    left: 0;
+    
+    z-index: 2;
+}
+#ss-ul{
+    
+    /* background: #FFE5E5; */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    
+    height: 100vh;
+    width: 100%;
+    
+    /* padding-top: 2rem !important; */
+}
+.ss-li{
+    
+    /* background: #ADB4FF; */
+    border-bottom: var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    
+    height: 50px;
+    width: 250px;
+}
+.ss-li:hover{
+    
+    background: var(--primary-bg-1o1);
+    /* -webkit-border-radius: 15px; */
+    /* -moz-border-radius: 15px; */
+    /* border-radius: 15px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------*\
+  #Media quires
+\*-----------------------------------*/
+@media(min-width:900px){
+    /* body,main{
+        background: red !important;
+    } */
+    /* #small-sidebar{
+        
+        display: block !important;
+        overflow: hidden;
+        
+        width: 150px !important;
+        min-height: 100vh;
+    } */
+    /* .ss-li{
+        
+        display: grid !important;
+        grid-template-columns: 50px 1fr !important;
+        place-items: center;
+        align-items: center;
+        justify-content: left;
+        width: 150px !important;
+        column-gap: 30px;
+       
+    } */  
+    
+    /* .ss-ic{
+        
+        color: #004CFF !important;
+        min-width: 50px;
+        height: 20px;
+        padding-left: 3.5rem !important;
+    } */
+    #small-sidebar{
+        
+        display: block !important;
+        overflow: hidden;
+        
+        width: 70px !important;
+        min-height: 200vh;
+    }
+    .ss-li a{
+        
+        display: none;
+    }
+    
+    
+    #small-sidebar.active{
+        
+        width: 150px !important;
+    }
+    #small-sidebar.active .ss-li a{
+        display: block;
+    }
+
+    
+    
+}

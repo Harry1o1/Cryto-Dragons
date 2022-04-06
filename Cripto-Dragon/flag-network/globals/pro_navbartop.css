@@ -1,0 +1,122 @@
+@import url(./variables.css);
+
+ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
+    display: none;
+}
+
+#pro_navbartop_container{
+    
+    /* background: #F3F4FF; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    border-bottom: var(--border-color);
+    background: var(--sidebar-bg);
+    
+    height: 50px;
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    padding: 0 5%;
+    
+    z-index: 10;
+}
+#pro_navbartop_container ul{
+    
+    display: grid;
+    grid-template-columns: 40px 30px 3fr 30px 30px 85px;
+    column-gap: 5px;
+    /* place-items: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    
+    min-height: 50px;
+    
+}
+.pnt-li{
+    
+    /* background: #E4E4E4; */    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 50px;
+    width: 100%;
+}
+.pnt-it{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* #pnt-li2{
+    
+    align-items: center;
+    justify-content: left;
+} */
+#pnt-it1,#pnt-it4,#pnt-it5{
+    
+    /* background: #EEF0FF; */
+    background: var(--primary-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 30px;
+    width: 30px;
+}
+#pnt-it1{
+    
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s linear;
+
+    /* padding: 1rem !important; */
+}
+#pnt-in{
+    
+    font-size: 20px;
+    color: #000000;
+}
+
+/* *{
+    
+    background: #EBFFF0 !important;
+} */
+
+#pnt-it5.active ion-icon[name="sunny-outline"]{
+    display: none;
+}
+#pnt-it5.active ion-icon[name="moon-outline"]{
+    display: block;
+}
+
+.btn{
+    
+    /* background: red; */
+    border: var(--border-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:900px){
+    
+    /* #pro_navbartop_container{
+        
+        padding: 0 100px;
+    } */    
+
+}
