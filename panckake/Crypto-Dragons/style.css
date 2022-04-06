@@ -47,7 +47,7 @@ main{
       /* flex-direction: column; */
       /* row-gap: 100px !important; */
     background: var(--body-bg);
-    min-height: 1000vh;
+    min-height: 600vh;
     
     width: 100%;
     
