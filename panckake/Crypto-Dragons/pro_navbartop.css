@@ -46,7 +46,7 @@
     
     display: grid;
     grid-template-columns: 40px 40px 1fr 30px 85px;
-    column-gap: 5px;
+    column-gap: 13px;
     
     height: 70px;
     min-width: 100%;
@@ -125,5 +125,9 @@
         
         padding: 0 100px;
     } */    
+    #pro_navbartop_container ul{
+    
+        grid-gap: 20px;
+    }
 
 }
