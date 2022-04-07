@@ -164,3 +164,15 @@ font-size: 900;
     justify-content: center;
     flex-direction: column;
 }
+
+
+
+.ion-c{
+    
+    
+    /* color: var(--icon-color) !important; */
+    /* background: var(--icon-color) !important; */
+    background: transparent !important;
+    border: var(--border-color) !important;
+    
+}
