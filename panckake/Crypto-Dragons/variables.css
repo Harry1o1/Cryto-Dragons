@@ -17,7 +17,7 @@ body.light{
     
 
 }
-body.dark{
+body{
     
     --glass-bg:rgba(0, 0, 0, 0.26);
     --icon-color:hsla(217, 0%, 100%, 1);

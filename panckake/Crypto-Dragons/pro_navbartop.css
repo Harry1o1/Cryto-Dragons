@@ -1,6 +1,9 @@
 @import url(./variables.css);
 
-#pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="moon-outline"]{
+/* #pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="moon-outline"]{
+    display: none;
+} */
+#pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="sunny-outline"]{
     display: none;
 }
 
@@ -92,13 +95,19 @@
 }
 
 
-#pnt-it5.active ion-icon[name="sunny-outline"]{
+/* #pnt-it5.active ion-icon[name="sunny-outline"]{
     display: none;
-}
-#pnt-it5.active ion-icon[name="moon-outline"]{
+} */
+/* #pnt-it5.active ion-icon[name="moon-outline"]{
+    display: block;
+} */
+#pnt-it5.active ion-icon[name="sunny-outline"] {
     display: block;
 }
 
+#pnt-it5.active ion-icon[name="moon-outline"] {
+    display: none;
+}
 #pro_navbartop_container .btn{
     
     border: var(--border-color) !important;

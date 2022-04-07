@@ -535,7 +535,20 @@
 
 
 
+.pb-bt,.pb-ttt{
+    
+    margin-top: 3rem !important;
+}
+
+.b-tb{
+    
+    border-top: var(--border-color);
+    border-bottom: var(--border-color);
+    
+}
 
 
-
-
+.mt-1{
+    
+    margin-top: 2rem !important;
+}

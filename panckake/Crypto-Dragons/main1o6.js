@@ -40,31 +40,32 @@ Moralis.start({ serverUrl, appId });
 async function login_metamask() {
     let user = Moralis.User.current();
     if (!user) {
+        // const user = await Moralis.authenticate()
 
-        const user = await Moralis.authenticate()
-            .then(function(user) {
-                console.log("logged in user:", user);
-                console.log(user.get("ethAddress"));
-            })
-            .catch(function(error) {
-                console.log(error);
-            });
+        const user = Moralis.authenticate({type: "sol"});
+            // .then(function(user) {
+            //     console.log("logged in user:", user);
+            //     console.log(user.get("ethAddress"));
+            // })
+            // .catch(function(error) {
+            //     console.log(error);
+            // });
     }
 }
-async function login_wallet_connect() {
-    let user = Moralis.User.current();
-    if (!user) {
+// async function login_wallet_connect() {
+//     let user = Moralis.User.current();
+//     if (!user) {
 
-        const user = await Moralis.authenticate({ provider: "walletconnect" })
-            .then(function(user) {
-                console.log("logged in user:", user);
-                console.log(user.get("ethAddress"));
-            })
-            .catch(function(error) {
-                console.log(error);
-            });
-    }
-}
+//         const user = await Moralis.authenticate({ provider: "walletconnect" })
+//             .then(function(user) {
+//                 console.log("logged in user:", user);
+//                 console.log(user.get("ethAddress"));
+//             })
+//             .catch(function(error) {
+//                 console.log(error);
+//             });
+//     }
+// }
 
 async function logOut() {
     await Moralis.User.logOut();
@@ -73,7 +74,7 @@ async function logOut() {
 
 
 document.querySelector(".btn_login_metamask").onclick = login_metamask;
-document.querySelector(".btn_login_wallet-connect").onclick = login_wallet_connect;
+// document.querySelector(".btn_login_wallet-connect").onclick = login_wallet_connect;
 
 
 
@@ -173,7 +174,18 @@ st_tg6.addEventListener('click', (e) => {
 light.addEventListener('click', () => {
     // console.log('op');
     light.classList.toggle('active');
-    body.classList.toggle('dark');
+    // body.classList.toggle('dark');
+    // body.classList.remove('dark');
+    body.classList.toggle('light');
+    
+    // if(body.classList.contains('light')){
+        
+    //     // body.classList.('dark');
+    //     body.classList.replace('light','dark');
+        
+    // }
+    // body.classList.replace('dark','light');
+    
 
 })
 login_toggler.addEventListener('click', () => {
