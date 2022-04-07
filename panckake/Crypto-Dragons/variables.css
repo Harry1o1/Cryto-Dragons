@@ -5,12 +5,15 @@ body.light{
     --body-bg:hsla(0, 0%, 100%, 1);
     --primary-bg:hsla(233, 100%, 97%, 1);
     --primary1o1-bg:hsla(233, 0%, 100%, 1);
+    --primary1o2-bg:hsla(233, 27%, 25%, 1);
+    
     --sidebar-bg:hsla(217, 0%, 100%, 1);
     --best-bg:hsla(217, 0%, 96%, 1);
     /* --modal-bg: #F4F7FF; */
     
     --border-color: 1px solid #EAEAEA;
     --border-color-1o1: 1px solid #EAEAEA;
+    --primary1o2-bg:hsla(233, 100%, 97%, 1);
     
     
     --homepage-bg:hsla(215, 0%, 100%, 1);
@@ -18,6 +21,8 @@ body.light{
 
 }
 body{
+    
+    --primary1o2-bg:hsla(259, 0%, 100%, 1);
     
     --glass-bg:rgba(0, 0, 0, 0.26);
     --icon-color:hsla(217, 0%, 100%, 1);

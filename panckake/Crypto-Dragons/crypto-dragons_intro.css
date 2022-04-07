@@ -552,3 +552,19 @@
     
     margin-top: 2rem !important;
 }
+
+
+
+
+
+
+.da-li img{
+    
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    border-radius: 15px !important;
+    min-width: 100% !important;
+    min-height: 300px !important;
+    
+    margin: 1.3rem 0 !important;
+}
