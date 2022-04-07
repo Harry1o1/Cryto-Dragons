@@ -45,8 +45,8 @@ body{
 
 
 @media(min-width:900px){
-    body.dark{
-        --border-color: 2px solid hsla(242, 8%, 10%, 1);
+    body{
+        --border-color: 2.5px solid hsla(242, 8%, 10%, 1);
         
         
     }

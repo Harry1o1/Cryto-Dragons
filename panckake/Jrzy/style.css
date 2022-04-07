@@ -125,12 +125,21 @@ font-size: 900;
 
 @media(min-width:900px){
     
+    /* *{
+        
+        background: red;
+    } */
     main{
         
+        padding: 0 3rem !important;
+        padding-top: 8rem !important;
+        
         left: 70px;
-        min-height: 700vh;;
+        min-height: 5000rem !important;
         
     }
+    
+    
     /* main h1{
         
         background: var(--gradient-1);
