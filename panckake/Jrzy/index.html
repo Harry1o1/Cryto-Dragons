@@ -7,8 +7,8 @@
     <title>Jrzy</title>
     
     
-    <!-- <h1>Boostrap</h1> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Boostrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" /> -->
     
     <!-- <h1>Open props</h1> -->
     <link rel="stylesheet" href="https://unpkg.com/open-props"/>
@@ -35,11 +35,19 @@
     ul#ss-ul>li.ss-li#ss-li$*7>ion-icon[name="menu-outline"].ss-ic+a[href="#"]{item$}.ss-a
     -->
     
+    
+    <!-- Navbar top -->
     <nav id="pro_navbartop_container">
         <ul id="pnt-ul">
-            <li class="pnt-li" id="pnt-li1">
+            
+            
+            
+            <li class="pnt-li pnt-li1" >
                 
-                <div id="pnt-it1" class="pnt-it">
+                
+                <div id="pnt-it1" class="pnt-it pnt-it1">
+                    
+                    
                     <ion-icon name="menu-outline" id="pnt-in"></ion-icon>
                     <ion-icon name="close-outline" id="pnt-in"></ion-icon>
                     
@@ -48,13 +56,24 @@
                 <div id="small-sidebar" class="close">
                     
                     <ul id="ss-ul">
-                        <!-- <li id="searchbar-container">
+                        
+                        <!-- <li class="ss-create c">
                             
-                            <ion-icon name="search-outline"></ion-icon>
-                            <input type="search" name="Search" id="Search">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <a href="#"> Create </a>
+                            
+                        </li> -->
+                        
+                        <!-- <li class="ss-search-container c">
+                            
+                            
+                            <ion-icon name="add-outline"></ion-icon>
+                            <input type="search" name="ss-search" id="ss-search" placeholder="Search for joy">
+                            <ion-icon name="add-outline"></ion-icon>
                             
                             
                         </li> -->
+                        
                         <li class="ss-li" id="ss-li1">
                             
                             <Link passHref href="/home">
@@ -166,9 +185,9 @@
                             
                             
                             
-                            <Link passHref href="/support_ukrane">
+                            <Link passHref href="/support_ukrane" >
                                 
-                            
+                                
                                 <ion-icon name="sparkles-outline"></ion-icon>
                                 <a href="#">Support Ukraine</a>
                                 
@@ -176,6 +195,8 @@
                             
                             
                         </li>
+                        
+                        <!-- <li class="line"></li> -->
                         
                         
                         <div class="strat-line">
@@ -319,62 +340,75 @@
                         
                         
                     </ul>
+                    
+                    
                 </div>
                
-    
-            
                 
             </li>
-            <li class="pnt-li" id="pnt-li2">
+            
+            
+            <li class="pnt-li pnt-li2" >
                 
-                <div id="pnt-lg" class="pnt-it">
-                    <!-- <ion-icon name="logo-google"></ion-icon> -->
-                    <img src="./jrzy-logo.png" alt="logo">
+                <div class="pnt-it" id="pnt-it2">
+                    
+                    
+                    
+                    <ion-icon class="pnt-it2" name="notifications-outline" id="pnt-in"></ion-icon>
+                    
+                    
+                    
                     
                 </div>
                 <!-- <img srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> -->
                 
             </li>
             
-            <li id="pnt_divider"></li>
             
-            <!-- <li class="pnt-li" id="pnt-li4">
+            <li class="pnt_divider pnt-li3">
                 
-                <div id="pnt-it4" class="pnt-it">
-                    <ion-icon name="search-outline"></ion-icon>
+                <div id="pnt-lg" class="pnt-it">
                     
+                    <img src="./jrzy-logo.png" alt="logo">
                     
                 </div>
                 
                 
-            </li> -->
-            <li class="pnt-li" id="pnt-li5">
+            </li>
+            <li class="pnt-li pnt-li4">
                 
                 <div id="pnt-it5" class="pnt-it">
                     
                     <ion-icon name="sunny-outline"></ion-icon>
-                    <!-- <ion-icon name="search-outline"></ion-icon> -->
                     <ion-icon name="moon-outline"></ion-icon>
                     
                 </div>
                 
                 
             </li>
-            
-            <li class="pnt-li" id="pnt-li6">
+            <li class="pnt-li pnt-li5" >
                 
-                <div class="btn btn-white w-80" id="login-toggler">
-                    connect
+                <div id="login-toggler" class="pnt-it1">
+                    
+                    
+                    <ion-icon name="map-outline" id="pnt-in"></ion-icon>
+                    
+                    
                 </div>
                 
                 
+                
             </li>
+            
+            
+            
         </ul>
     </nav>
-
+    
+    <!-- Login Container -->
     <div id="login_wrapper" class="shadow-lg">
         <div id="login_header">
-            <h5>Login with your Solana wallet</h5>
+            <h5>Login with your wallet</h5>
             <div class="icon">
                 <ion-icon name="close-outline"></ion-icon>
 
@@ -404,12 +438,6 @@
 
     </div>
     
-    
-    
-    
-    
-    
-   
     <!-- Main -->
    <main>
        
@@ -438,7 +466,7 @@
                    
                    <div id="sec1_btn_container" class="grid-gap-3">
                        <a href="#" class="sec1_btns btn btn-primary btn1"> Docs </a>
-                       <a href="#" class="sec1_btns btn btn-primary ion-c"> 🎡 Rarity spinner </a>
+                       <a href="#" class="sec1_btns btn btn-primary ion-c"> Rarity spinner </a>
                        <a href="#" class="sec1_btns btn btn-primary ion-c"> Learn more</a>
                        
                        
@@ -1506,6 +1534,9 @@
            </div>
        </footer>
    </main>
+
+
+
    
    
    

@@ -214,16 +214,16 @@ login_close.addEventListener('click',()=>{
     login_container.classList.remove('active');
     overlay.classList.remove('active');
 
-    if (login_container.classList.contains('active')) {
-        login_toggler.innerText = 'cancel';
+    // if (login_container.classList.contains('active')) {
+    //     login_toggler.innerText = 'cancel';
         
-        // console.log('hi')
-    }
-    else {
+    //     // console.log('hi')
+    // }
+    // else {
 
-        login_toggler.innerText = 'connect';
+    //     // login_toggler.innerText = 'connect';
 
-    }
+    // }
     
     
 })

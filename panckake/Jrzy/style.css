@@ -134,7 +134,7 @@ font-size: 900;
         padding: 0 3rem !important;
         padding-top: 8rem !important;
         
-        left: 70px;
+        left: 85px;
         min-height: 5000rem !important;
         
     }
@@ -176,3 +176,17 @@ font-size: 900;
     border: var(--border-color) !important;
     
 }
+
+
+
+
+
+
+
+
+/* main li{
+    
+    width: 60% !important;
+    min-width: 350px !important;
+    
+} */

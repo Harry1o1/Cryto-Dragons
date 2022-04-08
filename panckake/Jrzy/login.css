@@ -33,10 +33,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    row-gap: 5px;
+    row-gap: 30px;
     
     
-    height: 200px;
+    height: 230px;
     width: 330px;
     
     
@@ -83,7 +83,21 @@
     height: 50px;
     
 }
+#login_header h5{
+    
+    
+    font-size: 25px;
+    font-weight: 900;
+    font-style: bold;
+    /* text-align: center; */
+    
+}
+
 .login-text{
+    
+    font-size: 20px;
+    font-weight: 900;
+    font-style: bold;
     text-align: center;
     display: flex;
     align-items: center;
