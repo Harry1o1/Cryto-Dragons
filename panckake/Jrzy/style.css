@@ -20,6 +20,14 @@
     list-style: none;
     /* font-family: 'Playfair Display', serif; */    
 }
+a:link,
+a:visited,
+a:hover,
+a:active{
+    color: var(--icon-color) !important;
+    background: transparent !important;
+    
+}
 ::-webkit-scrollbar{
     
     display: none !important;
@@ -116,7 +124,7 @@ font-size: 900;
     /* top: 50px; */
     left: 0;
     
-    z-index: 500 !important;
+    z-index: 999 !important;
 }
 .overlay.active{
     display: block;

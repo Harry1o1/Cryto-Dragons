@@ -27,6 +27,7 @@ let login_close = document.querySelector('#login_header .icon');
 /* Moralis init code */
 const serverUrl = "https://a2pko6dyqtwq.usemoralis.com:2053/server";
 const appId = "D0r1DA19TTZvr6CiWdB3sjDDE0Y71EFasRNLP12a";
+
 Moralis.start({ serverUrl, appId });
 
 
@@ -43,6 +44,12 @@ async function login_metamask() {
         // const user = await Moralis.authenticate()
 
         const user = Moralis.authenticate({type: "sol"});
+// get mainnet SOL balance for the current user
+// const solBalance = await Moralis.SolanaAPI.account.balance();
+
+// console.log(solBalance)
+
+        
             // .then(function(user) {
             //     console.log("logged in user:", user);
             //     console.log(user.get("ethAddress"));
@@ -100,7 +107,7 @@ st.forEach((small_sidebarn) => {
             // console.log('Yeh baby!')
         }
         if(menu_ic.classList.contains('active')){
-            console.log('hixycutdi5d2761111111')
+            // console.log('hixycutdi5d2761111111')
             small_sidebar.classList.toggle('close')
             small_sidebar.classList.toggle('active');
             
@@ -227,3 +234,58 @@ login_close.addEventListener('click',()=>{
     
     
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// get mainnet SOL balance for the current user
+// const solBalance = await Moralis.SolanaAPI.account.balance();
+// let solBalance;
+// get devnet SOL balance for a given address
+// const solbalace = async()=>{
+// // const options = {
+// //   network: "devnet",
+// //   address: "6XU36wCxWobLx5Rtsb58kmgAJKVYmMVqy4SHXxENAyAe",
+// // };
+// solBalance = await Moralis.SolanaAPI.account.balance(options);
+// return console.log(solBalance);
+
+// }
+
+// solbalace();
+
+
+// get devnet SOL balance for a given address
+// const options = {
+//   network: "devnet",
+//   address: "6XU36wCxWobLx5Rtsb58kmgAJKVYmMVqy4SHXxENAyAe",
+// };
+// const solBalance = Moralis.SolanaAPI.account.balance(options);        
+// console.log(solBalance);

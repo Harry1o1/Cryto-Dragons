@@ -23,7 +23,10 @@
     background: var(--sidebar-bg);
     border-right: var(--border-color);
     border-left: var(--border-color);
-    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* row-gap:30px; */
+    /* column-gap: 30px; */
     overflow: hidden;
     /* animation: menuPopup 0.8s ease forwards; */
     transition: all 0.5s linear;
@@ -32,10 +35,12 @@
     width: 0 !important;
     
     position: fixed;
-    top: 70.3px;
+    top: 70px;
     left: 0;
     
-    z-index: none !important;
+    
+    padding-top: 1rem;    
+    z-index: 50 !important;
 }
 #small-sidebar.active{
     
@@ -50,7 +55,7 @@
     display: flex !important;
     flex-direction: column !important;
     align-items: center;
-    
+    row-gap: 10px;
     /* height: 200rem !important; */
     height: 99vh;
     width: 100% !important;
@@ -66,13 +71,13 @@
 .ss-li{
     
     display: flex;
-    align-items: center;
+    align-items: center !important;
     column-gap: 30px;
     
     min-height: 50px;
     width: 250px;
     
-    padding-left: 40px !important;
+    padding-left: 20px !important;
 }
 .ss-li:hover,.st:hover{
 
@@ -100,8 +105,8 @@
     min-height: 1000rem !important;
     width: 100%;
     
-    /* margin-top: 2rem; */
-    /* padding-top: 1rem; */
+    /* padding-top: 1.5rem; */
+    margin-top: 0.5rem;
 }
 .c{
     
@@ -229,9 +234,7 @@
 
 #small-sidebar.close #ss-ul li:hover{
     
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     animation: friday-glow 15s linear infinite;
     color: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1)) !important;
     
@@ -245,7 +248,10 @@
 #small-sidebar.close #ss-ul li:hover ion-icon{
     
     animation: friday-glow 20s linear infinite;
-    color: indigo !important;
+    /* color: indigo !important; */
+    color: #FFFFFF !important;
+    /* color: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1)) !important; */
+    
 }
 
 
@@ -276,9 +282,18 @@
         min-height: 200vh !important;
         
         /* padding-left: 10px !important; */
+        padding-top: 2rem !important;
         
-        z-index: none !important;
+        /* z-index: none !important; */
     }
+    #small-sidebar.close .strat-line{
+        
+        padding-top: 1.5rem;
+        margin-top: 3rem;
+        
+    }
+
+    
     #small-sidebar.close li,#small-sidebar.close .st-main{
         
         
