@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Script from 'next/script'
 import Head from 'next/head'
-import Image from 'next/image'
+
 
 
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
@@ -13,7 +13,7 @@ import { useAutoConnect } from '../contexts/AutoConnectProvider';
 
 
 // opbro🎉🎉🎉🎉😎😎😎😎
-export default function Layout({ children }) {
+export const Layout = () => {
     
   const { autoConnect, setAutoConnect } = useAutoConnect();
     
@@ -55,11 +55,11 @@ export default function Layout({ children }) {
           <ion-icon className="pnt-it2" name="notifications-outline" id="pnt-in" />
           <ion-icon className="pnt-it2" name="close-outline" id="pnt-in" />
         </div>
-        {/* <Image srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> */}
+        {/* <img srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> */}
       </li>
       <li className="pnt_divider pnt-li3 ">
         <div id="pnt-lg" className="pnt-it">
-          {/* <Image src="./jrzy-logo.png" alt="logo"> */}
+          {/* <img src="./jrzy-logo.png" alt="logo"> */}
         </div>
       </li>
       <li className="pnt-li pnt-li4 ">
@@ -376,13 +376,13 @@ export default function Layout({ children }) {
       {/* <ion-icon name="moon-outline"></ion-icon> */}
     </div>
     <div id="metamask_container" className="btn_login_metamask">
-      <Image src="./pthantom.png" alt="Metamask" height={30} width={30} />
+      <img src="./pthantom.png" alt="Metamask" height={30} width={30} />
       <div className="login-text">
         Pantham
       </div>
     </div>
     {/* <div id="wallet-connect_container" class="btn_login_wallet-connect">
-      <Image src="./wallet-connect.svg" alt="Wallet-connect" height="48" width="48">
+      <img src="./wallet-connect.svg" alt="Wallet-connect" height="48" width="48">
       <div class="login-text">
   
           Wallet-connect
@@ -395,7 +395,7 @@ export default function Layout({ children }) {
     <div className="drop__container" id="drop-items">
       <div className="drop__card">
         <div className="drop__data">
-          <Image src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -409,7 +409,7 @@ export default function Layout({ children }) {
       </div>
       <div className="drop__card">
         <div className="drop__data">
-          <Image src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -423,7 +423,7 @@ export default function Layout({ children }) {
       </div>
       <div className="drop__card">
         <div className="drop__data">
-          <Image src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -437,7 +437,7 @@ export default function Layout({ children }) {
       </div>
       <div className="drop__card">
         <div className="drop__data">
-          <Image src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -451,7 +451,7 @@ export default function Layout({ children }) {
       </div>
       <div className="drop__card">
         <div className="drop__data">
-          <Image src="./drag-drop-card/assets/img/img4.jpg" alt className="drop__img" />
+          <img src="./drag-drop-card/assets/img/img4.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Jenny Lit</h1>
             <span className="drop__profession">Digital marketing</span>
@@ -543,7 +543,7 @@ export default function Layout({ children }) {
             
             
              <div id="pro_main_container">
-              {children}
+             
             </div>
             
             
@@ -702,3 +702,4 @@ export default function Layout({ children }) {
         // type="module" src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo/nextjs/education-website/assets/js/script.js"
         // strategy="beforeInteractive"
     //   />
+export default Layout
