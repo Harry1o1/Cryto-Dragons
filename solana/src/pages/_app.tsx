@@ -36,7 +36,6 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 
 
 
-          <ContextProvider>
           
             <Layout>
           
@@ -49,7 +48,6 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
             
             </Layout>
             
-          </ContextProvider>
           
           
           
@@ -82,12 +80,14 @@ export default App;
 
 
           {/* Main */
-              
+                        //<ContextProvider>
+
              // <Footer/>
               
               // <AppBar/>
               
-              
+                       // </ContextProvider>
+
           }
 
 
