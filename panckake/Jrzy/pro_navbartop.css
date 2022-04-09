@@ -51,7 +51,7 @@
 #pro_navbartop_container ul {
 
     display: grid;
-    grid-template-columns: 40px 30px 30px auto 30px 40px;
+    grid-template-columns: 40px 35px 35px auto 35px 80px;
     column-gap: 13px;
 
     height: 70px;
@@ -108,8 +108,8 @@
     align-items: center;
     justify-content: center;
     
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 .pnt-it1{
     
@@ -201,7 +201,9 @@
 
     
     #pro_navbartop_container ul{
-    
+        
+        
+        grid-template-columns: 40px 35px 35px auto 35px 135px;
         grid-gap: 25px;
     }
 
@@ -256,6 +258,15 @@
 }
 
 
+    .notifications-toggler.close ion-icon[name="notifications-outline"]{
+        
+        display: none !important;
+    }
+    
+    .notifications-toggler.close ion-icon[name="close-outline"]{
+        
+        display: block !important;
+    }
 
 
 
@@ -281,19 +292,10 @@
         
         position: fixed !important;
         top: 70px !important;
-        right: 0 !important;
+        left: 80px !important;
         margin: 0 !important;
         
         z-index: 10 !important;
-    }
-    .notifications-toggler.close ion-icon[name="notifications-outline"]{
-        
-        display: none !important;
-    }
-    
-    .notifications-toggler.close ion-icon[name="close-outline"]{
-        
-        display: block !important;
     }
     
     .notifications-container.show .drop__card{

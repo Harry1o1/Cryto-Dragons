@@ -197,8 +197,8 @@ light.addEventListener('click', () => {
 })
 login_toggler.addEventListener('click', () => {
     // console.log('op');
-    login_container.classList.add('active');
-    overlay.classList.add('active');
+    // login_container.classList.add('active');
+    // overlay.classList.add('active');
 
     
 })

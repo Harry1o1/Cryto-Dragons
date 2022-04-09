@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="style.css">
     
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="./drag-drop-card/assets/css/styles.css">
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     
@@ -74,26 +74,14 @@
                 
             </li>
             
-            
-            
-            <li class="pnt_divider pnt-li3 ">
-                
-                <div id="pnt-lg" class="pnt-it">
-                    
-                    <img src="./jrzy-logo.png" alt="logo">
-                    
-                </div>
-                
-                
-            </li>
-            
-            <li class="pnt-li pnt-li2" >
+            <li class="pnt-li pnt-li2 notifications-toggler" >
                 
                 <div class="pnt-it" id="pnt-it2">
                     
                     
                     
                     <ion-icon class="pnt-it2" name="notifications-outline" id="pnt-in"></ion-icon>
+                    <ion-icon class="pnt-it2" name="close-outline" id="pnt-in"></ion-icon>
                     
                     
                     
@@ -103,6 +91,30 @@
                 
             </li>
             
+            
+            <li class="pnt_divider pnt-li3 ">
+                
+                <div id="pnt-lg" class="pnt-it">
+                    
+                    <!-- <img src="./jrzy-logo.png" alt="logo"> -->
+                    
+                </div>
+                
+                
+            </li>
+            
+            
+            <li class="pnt-li pnt-li4 ">
+                
+                <div id="pnt-it5" class="pnt-it">
+                    
+                    <!-- <ion-icon name="sunny-outline"></ion-icon> -->
+                    <ion-icon name="settings-outline"></ion-icon>
+                    
+                </div>
+                
+                
+            </li>
             
             
             <li class="pnt-li pnt-li5" >
@@ -413,7 +425,6 @@
                     
                     
                 </div>
-    
     <!-- Login Container -->
     <div id="login_wrapper" class="shadow-lg">
         <div id="login_header">
@@ -446,14 +457,114 @@
         </div> -->
 
     </div>
-    <!-- Login Container -->
-    #notifications-container>ul#n-ul>li.n-li.n-li$*
+    <!-- Notifications Container     #notifications-container>ul#n-ul>li.n-li.n-li$*-->
+        <div class="drop notifications-container">
+            <div class="drop__container" id="drop-items">
+                
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img4.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Jenny Lit</h1>
+                            <span class="drop__profession">Digital marketing</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     
     
     <!-- Main -->
    <main>
        
        <div id="pro_main_container" class="space-y-0.5">
+           
+           
+           <!-- <div id="potla-poda" class="sec">
+               
+               Hello
+               <div class="notifications-toggler">hi</div>
+               
+               
+           </div> -->
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
            
            
            
@@ -1598,7 +1709,7 @@
         <!--===== SORTABLE JS =====-->
         <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
          <!--===== MAIN JS =====-->
-         <script src="assets/js/main.js"></script>
+         <script src="./drag-drop-card/assets/js/main.js"></script>
          
     
     
