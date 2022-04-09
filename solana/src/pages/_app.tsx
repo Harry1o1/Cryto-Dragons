@@ -7,7 +7,25 @@ import { ContentContainer } from '../components/ContentContainer';
 import { Footer } from '../components/Footer';
 import Notifications from '../components/Notification'
 require('@solana/wallet-adapter-react-ui/styles.css');
-require('../styles/globals.css');
+require('../../Jrzy/style.css');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
@@ -16,18 +34,61 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
             <title>Solana Scaffold Lite</title>
           </Head>
 
+
+
           <ContextProvider>
-            <div className="flex flex-col h-screen">
+          
+            <Layout>
+          
+         
               <Notifications />
-              <AppBar/>
-              <ContentContainer>
+            
                 <Component {...pageProps} />
-              </ContentContainer>
-              <Footer/>
-            </div>
+     
+         
+            
+            </Layout>
+            
           </ContextProvider>
+          
+          
+          
+          
         </>
     );
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {/* Main */
+              
+             // <Footer/>
+              
+              // <AppBar/>
+              
+              
+          }
+
+
+

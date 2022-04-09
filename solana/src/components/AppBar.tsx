@@ -91,7 +91,11 @@ export const AppBar: FC = props => {
               </li>
             </ul>
           </div>
+          
+          
           <WalletMultiButton className="btn btn-ghost mr-2" />
+          
+          
         </div>
       </div>
       {props.children}
