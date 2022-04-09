@@ -5,6 +5,8 @@ import { HomeView } from "../views";
 const Home: NextPage = (props) => {
   return (
     <div>
+    
+    
       <Head>
         <title>Solana Scaffold</title>
         <meta
@@ -12,7 +14,15 @@ const Home: NextPage = (props) => {
           content="Solana Scaffold"
         />
       </Head>
+      
+      
+      
+      
       <HomeView />
+      
+      
+      
+      
     </div>
   );
 };
