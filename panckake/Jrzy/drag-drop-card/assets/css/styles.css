@@ -45,16 +45,31 @@ img{
 }
 
 .drop{
+    /* background: red; */
   width: 350px;
-  min-height: 500px;
-  align-items: center;
-  justify-content: center;
+  height: auto;
+  /* align-items: center; */
+  /* justify-content: center; */
+  
+  position: fixed;
+  right: 50px;
+  top: 70px;
+  
+ padding-bottom: 1rem; 
 }
 
 .drop__container{
-  row-gap: 1rem;
-  padding: 2rem;
-  box-shadow: 4px 4px 16px #E1E1E1;
+    
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding-top: 1rem !important;
+    
+    width: 100%;
+    height: auto;
+  /* row-gap: 1rem; */
+  /* padding: 2rem; */
+  /* box-shadow: 4px 4px 16px #E1E1E1; */
 }
 
 .drop__card, .drop__data{
@@ -63,12 +78,15 @@ img{
 }
 
 .drop__card{
-  width: 340px;
+    
+    height: 85px;
+  width: 90%;
   justify-content: space-between;
   padding: .75rem 1.25rem .75rem .75rem;
   background-color: var(--first-color-lighten);
-  box-shadow: 4px 4px 16px #E1E1E1, -2px -2px 16px #FFF;
+  /* box-shadow: 4px 4px 16px #E1E1E1, -2px -2px 16px #FFF; */
   border-radius: 2.5rem;
+  margin: 5px auto;
 }
 
 .drop__img{
@@ -101,7 +119,7 @@ img{
 
 /* Class name for the chosen item */
 .sortable-chosen{
-  box-shadow: 8px 8px 32px #E1E1E1;
+  /* box-shadow: 8px 8px 32px #E1E1E1; */
 }
 
 /* Class name for the dragging item */

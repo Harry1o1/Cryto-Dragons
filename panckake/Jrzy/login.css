@@ -53,6 +53,11 @@
    
     
 }
+#login_wrapper.active ion-icon[name="close-outline"]{
+    
+    display: block !important;
+}
+
 
 #wallet-connect_container,#metamask_container{
     

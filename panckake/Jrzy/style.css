@@ -28,9 +28,9 @@ a:active{
     background: transparent !important;
     
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar,ion-icon[name="close-outline"]{
     
-    display: none !important;
+    display: none;
 }
 html{
     
@@ -65,7 +65,7 @@ main{
     
     padding-top: 75px !important;
     
-    z-index: 0;
+    z-index: 0 !important;
 }
 
 

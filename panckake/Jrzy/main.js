@@ -1,4 +1,5 @@
 let body = document.querySelector('body');
+let main = document.querySelector('main');
 let menu_ic = document.querySelector('#pnt-it1');
 let small_sidebar = document.querySelector('#small-sidebar');
 let light = document.querySelector('#pnt-it5');
@@ -20,7 +21,8 @@ let st_tg3 = document.querySelector('#st-m3');
 let st_tg4 = document.querySelector('#st-m4');
 let st_tg5 = document.querySelector('#st-m5');
 let st_tg6 = document.querySelector('#st-m6');
-
+let notification_container = document.querySelector('.notifications-container');
+let notification_toggler = document.querySelector('.notifications-toggler');
 
 let login_close = document.querySelector('#login_header .icon');
 
@@ -131,6 +133,11 @@ menu_ic.addEventListener('click', () => {
         
         small_sidebar.classList.remove('close')
         // console.log('All done!')
+        main.addEventListener('click',()=>{
+                menu_ic.classList.remove('active');
+                small_sidebar.classList.remove('active');
+            
+        })
     }
     else {
         small_sidebar.classList.toggle('close')
@@ -185,13 +192,6 @@ light.addEventListener('click', () => {
     // body.classList.remove('dark');
     body.classList.toggle('light');
     
-    // if(body.classList.contains('light')){
-        
-    //     // body.classList.('dark');
-    //     body.classList.replace('light','dark');
-        
-    // }
-    // body.classList.replace('dark','light');
     
 
 })
@@ -200,17 +200,6 @@ login_toggler.addEventListener('click', () => {
     login_container.classList.add('active');
     overlay.classList.add('active');
 
-    // if (login_container.classList.contains('active')) {
-    //     login_toggler.innerText = 'cancel';
-        
-    //     console.log('hi')
-    // }
-    // else {
-
-    //     login_toggler.innerText = 'connect';
-
-    // }
-    
     
 })
 
@@ -221,17 +210,6 @@ login_close.addEventListener('click',()=>{
     login_container.classList.remove('active');
     overlay.classList.remove('active');
 
-    // if (login_container.classList.contains('active')) {
-    //     login_toggler.innerText = 'cancel';
-        
-    //     // console.log('hi')
-    // }
-    // else {
-
-    //     // login_toggler.innerText = 'connect';
-
-    // }
-    
     
 })
 
@@ -289,3 +267,35 @@ login_close.addEventListener('click',()=>{
 // };
 // const solBalance = Moralis.SolanaAPI.account.balance(options);        
 // console.log(solBalance);
+
+
+
+// notifications_toggler.forEach((notifications_togglers)=>{
+//     notifications_togglers.addEventListener('click',()=>{
+//         notifications.classList.toggle('show');
+//         console.log('op');
+//     })
+// })
+    notification_toggler.addEventListener('click',()=>{
+        notification_toggler.classList.toggle('close');
+        
+        if(notification_toggler.classList.contains('close')){
+            
+            // console.log('hi')
+            
+            main.addEventListener('click',()=>{
+                // console.log('hi')
+                
+                notification_toggler.classList.remove('close');
+                notification_container.classList.remove('show');
+                
+                
+            })
+            
+        }
+        notification_container.classList.toggle('show');
+        // console.log('op');
+    })
+
+
+
