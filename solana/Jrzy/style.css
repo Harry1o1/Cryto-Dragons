@@ -205,6 +205,10 @@ font-size: 900;
 
 .wallet-adapter-modal-wrapper{
   
-  min-height: 600px !important;
+  min-height: 250px !important;
+  padding: 4rem 1rem 2rem 1rem;
+}
+.wallet-adapter-modal-close{
   
+  margin-top: 1rem !important;
 }

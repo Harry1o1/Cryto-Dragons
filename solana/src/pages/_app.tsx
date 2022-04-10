@@ -18,7 +18,7 @@ const App: FC < AppProps > = ({ Component, pageProps }) => {
           </Head>
 
           <ContextProvider>
-            <Layout className="flex flex-col h-screen">
+            <Layout>
               <Notifications />
               <AppBar/>
               <ContentContainer>
