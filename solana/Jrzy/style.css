@@ -24,7 +24,7 @@ a:link,
 a:visited,
 a:hover,
 a:active{
-    color: var(--icon-color);
+    color: var(--icon-color) !important;
     background: transparent !important;
     
 }
@@ -217,3 +217,7 @@ font-size: 900;
 
 
 .dn{display: none !important;}
+
+
+
+button{background: red;}

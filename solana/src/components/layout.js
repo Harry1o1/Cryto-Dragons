@@ -67,7 +67,7 @@ export const Layout = ({ children }) => {
 
         {/* Wallet & Settings */}
         <div className="navbar-end ">
-          <div className="dropdown">
+          <div className="dropdown psd-toggler">
                
             <div tabIndex={0} className="btn btn-square btn-ghost">
             <li class="pnt-li pnt-li4 ">
@@ -83,26 +83,26 @@ export const Layout = ({ children }) => {
               
               
             </div>
-            <ul tabIndex={0} className="dn p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
+            <ul tabIndex={0} className="p-s-d p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
               <li>
                 <div className="form-control">
                   <label className="cursor-pointer label">
-                    <a>Autoconnect</a>
+                    <div>Autoconnect</div>
                     <input type="checkbox" checked={autoConnect} onChange={(e) => setAutoConnect(e.target.checked)} className="toggle" />
                   </label>
                 </div>
               </li>
               <li>
-                <a>Slippage (pending)</a>
+                <div>Slippage (pending)</div>
               </li>
               <li>
-                <a>Setting 3</a>
+                <div>Setting 3</div>
               </li>
             </ul>
           </div>
           
           
-          <WalletMultiButton className="btn btn-ghost mr-2" />
+          <WalletMultiButton className="wallet btn btn-ghost mr-2" />
           
           
         </div>
@@ -147,10 +147,10 @@ export const Layout = ({ children }) => {
                             
                         </li>
                         <li className="ss-li" id="ss-li1">
-                            
-                            <ion-icon name="home-outline"></ion-icon>
+                        <ion-icon name="baseball-outline"></ion-icon>       
+                                                     
                             <Link passHref href="/arena">
-                                
+                        
                                 <a href="#">Arena</a>
                                 
                             </Link>                            
@@ -158,7 +158,7 @@ export const Layout = ({ children }) => {
                         </li>
                         <li className="ss-li" id="ss-li1">
                             
-                            <ion-icon name="home-outline"></ion-icon>
+                            <ion-icon name="pricetag-outline"></ion-icon> 
                             <Link passHref href="/marketplace">
                                 
                                 <a href="#">Marketplace</a>
@@ -168,7 +168,7 @@ export const Layout = ({ children }) => {
                         </li>
                         <li className="ss-li" id="ss-li1">
                             
-                            <ion-icon name="home-outline"></ion-icon>
+                            <ion-icon name="language-outline"></ion-icon>
                             <Link passHref href="/dragon_language">
                                 
                                 <a href="#">Dragon Language</a>

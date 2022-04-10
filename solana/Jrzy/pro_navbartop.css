@@ -143,10 +143,11 @@ overflow-x: hidden;
 #pnt-it5.active ion-icon[name="moon-outline"] {
     display: none;
 }
-#pro_navbartop_container .btn{
+#pro_navbartop_container .wallet{
     
-    /* border: var(--border-color) !important; */
+    border: var(--border-color) !important;
     font-size: 10px !important;
+    padding: 0.8rem;
 }
 
 
@@ -367,3 +368,36 @@ overflow-x: hidden;
 
 
 .btn{margin: 0;padding: 0;}
+
+
+.p-s-d{
+  border-radius: 10px;
+  background: var(--primary-bg);
+  position: fixed !important;
+  top: 72px !important;
+  left: 70% !important;
+  
+  
+  display: none !important;
+  flex-direction: column !important;
+  row-gap: 5px !important;
+  align-items: center;
+  justify-content: center;
+  
+  min-height: 200px !important;
+  width: 300px !important;
+  max-width: 300px !important;
+}
+
+
+.p-s-d li{
+
+  display: flex !important;
+ 
+flex-direction: row !important;  
+  align-items: center;
+  justify-content: center;
+   
+  width: 300px;
+  
+}
