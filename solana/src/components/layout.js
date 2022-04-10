@@ -13,7 +13,7 @@ import { useAutoConnect } from '../contexts/AutoConnectProvider';
 
 
 // opbro🎉🎉🎉🎉😎😎😎😎
-export const Layout = () => {
+export const Layout = ({ children }) => {
     
   const { autoConnect, setAutoConnect } = useAutoConnect();
     
@@ -548,7 +548,7 @@ export const Layout = () => {
             
             
              <div id="pro_main_container">
-             
+                    { children }
             </div>
             
             
