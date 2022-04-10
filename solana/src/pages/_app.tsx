@@ -18,14 +18,14 @@ const App: FC < AppProps > = ({ Component, pageProps }) => {
           </Head>
 
           <ContextProvider>
-            <Layout>
+            <Layout />
               <Notifications />
               <AppBar/>
               <ContentContainer>
                 <Component {...pageProps} />
               </ContentContainer>
               <Footer/>
-            </Layout>
+           
           </ContextProvider>
         </>
     );
