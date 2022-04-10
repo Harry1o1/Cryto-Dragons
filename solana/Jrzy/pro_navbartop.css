@@ -28,7 +28,7 @@
     background: var(--glass-bg);
     
     height: 72px;
-    width: 360px !important;
+    width: 100% !important;
     
     position: fixed;
     top: 0;
@@ -51,7 +51,7 @@
 #pro_navbartop_container ul {
 
     display: grid;
-    grid-template-columns: 40px 35px 35px 0px 150px;
+    grid-template-columns: 40px 35px 35px auto 225px;
     column-gap: 13px;
 
     height: 70px;
@@ -203,7 +203,7 @@
     #pro_navbartop_container ul{
         
         
-        grid-template-columns: 40px 35px 35px auto 225px;
+        /* grid-template-columns: 40px 35px 35px auto 225px; */
         grid-gap: 25px;
     }
 
