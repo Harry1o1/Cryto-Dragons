@@ -44,11 +44,17 @@ body{
     width: 100% !important;
 }
 ul,li,h1,h2,h3,h5,h5,h6{
+    
+    
     margin: 0 !important;
     padding: 0 !important;
 }
 
-
+h1{
+    
+    
+    font-size: 40px !important;
+}
 main{
         
       /* display: flex; */
