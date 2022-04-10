@@ -689,7 +689,8 @@ export const Layout = ({ children }) => {
       />
       
       <Script
-       src="https://cdn.jsdelivr.net/gh/Harry1o1/Crypto-Dragons/solana/Jrzy/main.js"
+      
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/main.js"
         strategy="beforeInteractive"
       />
       
