@@ -24,13 +24,13 @@ let st_tg6 = document.querySelector('#st-m6');
 let notification_container = document.querySelector('.notifications-container');
 let notification_toggler = document.querySelector('.notifications-toggler');
 
-let login_close = document.querySelector('#login_header .icon');
+// let login_close = document.querySelector('#login_header .icon');
 
 /* Moralis init code */
-const serverUrl = "https://a2pko6dyqtwq.usemoralis.com:2053/server";
-const appId = "D0r1DA19TTZvr6CiWdB3sjDDE0Y71EFasRNLP12a";
+// const serverUrl = "https://a2pko6dyqtwq.usemoralis.com:2053/server";
+// const appId = "D0r1DA19TTZvr6CiWdB3sjDDE0Y71EFasRNLP12a";
 
-Moralis.start({ serverUrl, appId });
+// Moralis.start({ serverUrl, appId });
 
 
 // Metamask
@@ -40,27 +40,27 @@ Moralis.start({ serverUrl, appId });
 
 
 /* Authentication code */
-async function login_metamask() {
-    let user = Moralis.User.current();
-    if (!user) {
-        // const user = await Moralis.authenticate()
+// async function login_metamask() {
+//     let user = Moralis.User.current();
+//     if (!user) {
+//         // const user = await Moralis.authenticate()
 
-        const user = Moralis.authenticate({type: "sol"});
-// get mainnet SOL balance for the current user
-// const solBalance = await Moralis.SolanaAPI.account.balance();
+//         const user = Moralis.authenticate({type: "sol"});
+// // get mainnet SOL balance for the current user
+// // const solBalance = await Moralis.SolanaAPI.account.balance();
 
-// console.log(solBalance)
+// // console.log(solBalance)
 
         
-            // .then(function(user) {
-            //     console.log("logged in user:", user);
-            //     console.log(user.get("ethAddress"));
-            // })
-            // .catch(function(error) {
-            //     console.log(error);
-            // });
-    }
-}
+//             // .then(function(user) {
+//             //     console.log("logged in user:", user);
+//             //     console.log(user.get("ethAddress"));
+//             // })
+//             // .catch(function(error) {
+//             //     console.log(error);
+//             // });
+//     }
+// }
 // async function login_wallet_connect() {
 //     let user = Moralis.User.current();
 //     if (!user) {
@@ -76,13 +76,13 @@ async function login_metamask() {
 //     }
 // }
 
-async function logOut() {
-    await Moralis.User.logOut();
-    console.log("logged out");
-}
+// async function logOut() {
+//     await Moralis.User.logOut();
+//     console.log("logged out");
+// }
 
 
-document.querySelector(".btn_login_metamask").onclick = login_metamask;
+// document.querySelector(".btn_login_metamask").onclick = login_metamask;
 // document.querySelector(".btn_login_wallet-connect").onclick = login_wallet_connect;
 
 
@@ -195,23 +195,23 @@ light.addEventListener('click', () => {
     
 
 })
-login_toggler.addEventListener('click', () => {
-    // console.log('op');
-    // login_container.classList.add('active');
-    // overlay.classList.add('active');
+// login_toggler.addEventListener('click', () => {
+//     // console.log('op');
+//     // login_container.classList.add('active');
+//     // overlay.classList.add('active');
 
     
-})
+// })
 
 
 
-login_close.addEventListener('click',()=>{
-    // console.log('kohug');
-    login_container.classList.remove('active');
-    overlay.classList.remove('active');
+// login_close.addEventListener('click',()=>{
+//     // console.log('kohug');
+//     login_container.classList.remove('active');
+//     overlay.classList.remove('active');
 
     
-})
+// })
 
 
 
