@@ -51,11 +51,11 @@
 #pro_navbartop_container ul {
 
     display: grid;
-    grid-template-columns: 40px 35px 35px auto 35px 80px;
+    grid-template-columns: 40px 35px 35px 0px 150px;
     column-gap: 13px;
 
     height: 70px;
-    min-width: 100%;
+    max-width: 100% !important;
 
 
     z-index: 100 !important;
