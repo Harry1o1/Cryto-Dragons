@@ -50,12 +50,14 @@
 
 #pro_navbartop_container ul {
 
+  overflow-x: auto;
+overflow-x: hidden;  
     display: grid;
-    grid-template-columns: 40px 35px 35px auto 225px;
+    grid-template-columns: 40px 35px 35px auto 150px;
     column-gap: 13px;
 
     height: 70px;
-    max-width: 100% !important;
+    width: 100% !important;
 
 
     z-index: 100 !important;
@@ -144,7 +146,7 @@
 #pro_navbartop_container .btn{
     
     border: var(--border-color) !important;
-    
+    font-size: 10px !important;
 }
 
 
@@ -356,6 +358,12 @@
 .navbar-end{
     
     
-    
+    overflow: hidden;
     
 }
+
+
+
+
+
+.btn{margin: 0;padding: 0;}

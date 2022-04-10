@@ -21,9 +21,9 @@ const App: FC < AppProps > = ({ Component, pageProps }) => {
           
             <Layout>
               <Notifications />
-              <ContentContainer>
+            
                 <Component {...pageProps} />
-              </ContentContainer>
+             
             </Layout>
            
           </ContextProvider>

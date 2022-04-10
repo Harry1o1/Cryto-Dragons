@@ -66,9 +66,9 @@ export const Layout = ({ children }) => {
 
 
         {/* Wallet & Settings */}
-        <div className="navbar-end bordered">
+        <div className="navbar-end ">
           <div className="dropdown">
-                
+               
             <div tabIndex={0} className="btn btn-square btn-ghost">
             <li class="pnt-li pnt-li4 ">
                 
