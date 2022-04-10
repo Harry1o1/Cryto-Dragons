@@ -203,7 +203,7 @@
     #pro_navbartop_container ul{
         
         
-        grid-template-columns: 40px 35px 35px auto 35px 135px;
+        grid-template-columns: 40px 35px 35px auto 225px;
         grid-gap: 25px;
     }
 
@@ -304,4 +304,45 @@
         
     }
     
+}
+
+
+
+
+
+.navbar-end{
+  
+ 
+  max-height: 70px;
+  min-width:100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row !important;
+   column-gap: 20px;
+   
+   
+}
+
+.navbar-end svg{
+  
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.dn{
+  
+  display: none !important;
+}
+
+
+
+
+
+
+
+.wallet-adapter-modal-wrapper{
+  
+  min-height: 600 !important;
+  
 }

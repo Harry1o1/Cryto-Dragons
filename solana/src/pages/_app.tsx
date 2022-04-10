@@ -8,7 +8,7 @@ import { Footer } from '../components/Footer';
 import { Layout } from '../components/layout';
 import Notifications from '../components/Notification'
 require('@solana/wallet-adapter-react-ui/styles.css');
-require('../styles/globals.css');
+require('../../Jrzy/style.css');
 
 const App: FC < AppProps > = ({ Component, pageProps }) => {
     return (
