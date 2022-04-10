@@ -1,7 +1,7 @@
 *{
     /* background: red !important; */
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
 
 #sec1,.sec{
@@ -616,10 +616,15 @@
         
         display: flex;
         flex-direction: row;
-        column-gap: 10px;
+        column-gap: 5%;
         /* background: #000000; */
         
-        width: 50%;
+    }
+    .pp1-t > .navs{
+        
+        /* background: red; */
+                width: 300px;
+
     }
     
     .pp{
@@ -697,4 +702,310 @@
         height: 500px;
         width: 100%;
     }
+    .shedule{
+        
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        /* grid-template-columns: repeat(auto-fit,min-max(200px, 1fr)); */
+        grid-gap: 30px;
+        
+        
+        width: 100%;
+        height: 200px;
+        
+        margin-top: 2rem;
+    }    
+    
+    .info-container{
+        
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        place-items: center;
+
+        min-height: 200px;
+        margin-top: 3rem;
+        width: 100%;        
+    }
+    .info-container img{
+        
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: var(--border-color);
+        
+        width: 100%;
+        height: 200px;
+    }
+    
+    .info-btns {
+        
+        /* background: red !important; */
+        margin-top: 1rem;
+        display: flex !important;
+        flex-direction: column !important;
+        row-gap: 10px !important;
+        
+    }
+    
+    .tokenmice-container{
+        
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+        grid-gap: 50px;
+
+        min-height: 100px;
+        margin-top: 2rem;
+        width: 100%;        
+        
+        
+    }
+    
+    .tokenmice-container > *{
+        
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .buy-container,.sell-container{
+        
+        display: flex;
+        column-gap: 10px;
+    }
+    .tokenmice-container h1{
+        
+        font-size: 20px;
+        font-style: bold;
+        font-weight: 900;
+    }
+    
+    .tokenmice-container a{
+        
+        /* color: red !important; */
+        /* background: var(--primary-bg); */
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: var(--border-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 70px !important; */
+        /* width: 50px !important; */
+        
+        
+        padding: 1rem;
+        /* margin-left: 10px; */
+    }
+    
+    
+    .about-container,.htb-container{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        grid-gap: 30px;
+        
+        width: 100%;
+        height: auto;
+        
+        margin-top: 2rem;
+        
+    }
+    .htb-container{
+        grid-template-rows: 200px 1fr;
+        grid-template-columns: 1fr;
+        
+        
+    }
+    .htb-container .steps > *{
+        
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        
+        border: var(--border-color);
+        
+        padding: 2rem;
+        margin-top: 10px;
+    }
+    
+    
+    .about-left{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 200px;
+        border: var(--border-color);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        
+    }
+    .about-right{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        width: 100%;
+        min-height: 200px;
+        
+        border: var(--border-color);
+    }
+    /* .htb-container{
+        
+        display: grid;
+    } */
+    .roadmap-container{
+        
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        
+        margin-top: 2rem;
+        width: 100%;
+    }
+        .roadmap-container .steps{
+        
+            background: red;
+            display: grid;
+            /* grid-template-columns: 50px 400px; */
+            place-items: center;
+            
+            width: 100%;
+        }
+    .team-container{
+        
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contract-container{
+        
+        margin-top: 2rem;
+            
+        width: 100%;
+        
+    }
+    .contract-container input{
+        
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: var(--border-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        height: 50px;
+    }
+    /* .c-3{
+        
+        width: 80%;
+    } */
+    /* .c-4{
+        
+        width: 80%;
+    } */
+    
+    .c-t{
+        
+        
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr; */
+        grid-gap: 10px;
+        
+        width: 500px;
+    }
+    .c-c{
+        
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        /* grid-template-rows: 1fr 1fr; */
+        grid-gap: 10px;
+        
+        
+        margin: 0 auto;
+
+        width: 400px;
+        
+    }
+    .c-b{
+        
+        margin: 20px auto;
+        
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        
+        width: 300px;
+    }
+    
+    /* ::placeholder{
+        
+        margin-inline: auto;
+        margin-left: 1rem;
+        color: red !important;
+    } */
+input {
+  text-align: center;
 }
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;    }
+  
+  
+  
+  
+  
+    .bd{
+        
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        border: var(--border-color);
+        
+    }
+    
+    #potla-poda {
+        
+        /* font-family: 'Rubik Moonrocks', cursive; */   
+        
+    }
+    
+    
+    
+    
+}
+
+
+
