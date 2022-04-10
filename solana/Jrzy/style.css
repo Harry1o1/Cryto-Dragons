@@ -24,7 +24,7 @@ a:link,
 a:visited,
 a:hover,
 a:active{
-    color: var(--icon-color) !important;
+    color: var(--icon-color);
     background: transparent !important;
     
 }

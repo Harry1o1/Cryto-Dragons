@@ -599,4 +599,102 @@
 
     }
     
+    
+    
+    .pp1-t{
+        
+        /* background: red; */
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        padding: 0.5rem;
+    }
+    
+    .pp1-t > .navs ul{
+        
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        /* background: #000000; */
+        
+        width: 50%;
+    }
+    
+    .pp{
+        
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 10px !important;
+        /* height: 30px; */
+        text-align: center;
+        font-size: 25px;
+        /* border-bottom: 2px solid #FF0000; */
+        
+        margin-inline: auto;
+
+
+    }
+    .pp h1{
+        
+        color: #FFB500 !important;
+        border-bottom: 2px solid #FF0000;
+        
+        width: auto !important;
+        
+        
+    }
+    
+    #potla-poda{
+        
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    
+    #potla-poda > *{
+        
+        /* background: #E7E9FF; */
+        
+        width: 100%;
+    }
+    
+    
+    
+    .c-btn{
+        
+        border: var(--border-color);
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100px;
+        
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .brand{
+        
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        border: var(--border-color);
+        
+        
+        height: 500px;
+        width: 100%;
+    }
 }

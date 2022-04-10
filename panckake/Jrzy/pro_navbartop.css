@@ -203,7 +203,7 @@
     #pro_navbartop_container ul{
         
         
-        grid-template-columns: 40px 35px 35px auto 35px 135px;
+        grid-template-columns: 40px 35px 35px auto 35px 40px;
         grid-gap: 25px;
     }
 

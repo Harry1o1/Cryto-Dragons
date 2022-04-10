@@ -145,7 +145,7 @@ overflow-x: hidden;
 }
 #pro_navbartop_container .btn{
     
-    border: var(--border-color) !important;
+    /* border: var(--border-color) !important; */
     font-size: 10px !important;
 }
 
