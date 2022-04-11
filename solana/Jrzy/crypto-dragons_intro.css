@@ -897,6 +897,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: row !important;
+        
+        column-gap: 5px !important;
     }
     
     .contract-container{
@@ -1001,10 +1004,32 @@ input {
         /* font-family: 'Rubik Moonrocks', cursive; */   
         
     }
+    .about-right img{
+        
+        width: 100%;
+        min-height: 200px;
+    }
+    .team-container img{
+        
+        width: 100px !important;
+        height: 100px !important;
+        
+        
+        margin-right: 10px;
+        
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        
+    }
     
-    
-    
-    
+    img{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
 }
 
 
