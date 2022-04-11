@@ -78,8 +78,8 @@ main{
 
 #pro_main_container{
   
-  
-  
+      z-index: 0 !important;
+     
   min-height: 100vh !important;
   width: 100%;
   

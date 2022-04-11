@@ -27,7 +27,7 @@
     border: var(--border-color);
     background: var(--glass-bg);
     
-    height: 72px;
+    height: 70px;
     width: 100% !important;
     
     position: fixed;
@@ -53,7 +53,7 @@
   overflow-x: auto;
 overflow-x: hidden;  
     display: grid;
-    grid-template-columns: 40px 40px 40px auto 150px;
+    grid-template-columns: 40px 35px 35px 1px auto;
     column-gap: 13px;
 
     height: 70px;
@@ -322,13 +322,14 @@ overflow-x: hidden;
 .navbar-end{
   
  
-  max-height: 70px;
+  min-height: 70px !important;
+  height: auto;
   min-width:100% !important;
   display: flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   flex-direction: row !important;
-   column-gap: 20px;
+   column-gap: 1px;
    
    
 }
@@ -365,8 +366,8 @@ overflow-x: hidden;
 .navbar-end{
     
     
-    overflow: hidden;
-    
+    overflow-y: hidden;
+  overflow-x: auto;    
 }
 
 
@@ -508,3 +509,21 @@ flex-direction: row !important;
     
     
 } */
+
+
+
+
+.wallet-adapter-button{
+  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+  width: 50%;
+  
+  text-overflow: ellipsis;
+  text-align: center;
+  
+  
+  padding: 0 !important;
+}
