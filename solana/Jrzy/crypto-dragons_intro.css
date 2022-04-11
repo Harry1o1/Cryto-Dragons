@@ -1007,8 +1007,22 @@ input {
     .about-right img{
         
         width: 100%;
+        max-width: 500px;
         min-height: 200px;
+        max-height: 500px;
+        
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
     }
+    .about-right,.info-container img{
+        
+        width: 100% !important;
+        max-width: 500px !important;
+        max-height: 500px !important;
+            
+    }
+    
     .team-container img{
         
         width: 100px !important;
