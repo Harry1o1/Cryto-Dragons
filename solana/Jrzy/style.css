@@ -228,3 +228,12 @@ font-size: 900;
 
 
 button{background: red;}
+
+
+
+
+.show-flex{
+    
+    display: flex !important;
+    
+}

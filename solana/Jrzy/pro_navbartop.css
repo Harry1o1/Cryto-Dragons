@@ -192,14 +192,15 @@ overflow-x: hidden;
     
     #pnt-lg{
         
-        width: 40px;
-        height: 40px;
+        /* background: red; */
+        width: 60px !important;
+        height: 60px !important;
     }
     #pnt-lg img{
         
         
-        height: 30px;
-        width: 30px;
+        height: 60px !important;
+        width: 60px !important;
     }
 
     
@@ -378,6 +379,8 @@ overflow-x: hidden;
 
 
 .p-s-d{
+    
+  display: none !important;
   border-radius: 10px;
   background: var(--primary-bg);
   position: fixed !important;
@@ -385,7 +388,6 @@ overflow-x: hidden;
   left: 70% !important;
   
   
-  display: none !important;
   flex-direction: column !important;
   row-gap: 5px !important;
   align-items: center;
@@ -519,7 +521,7 @@ flex-direction: row !important;
   align-content: center;
   justify-content: center;
   
-  width: 50%;
+  width: 100%;
   
   text-overflow: ellipsis;
   text-align: center;

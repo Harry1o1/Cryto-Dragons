@@ -742,6 +742,11 @@ export const Layout = ({ children }) => {
       />
       
       <Script
+       src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/settings.js"
+        strategy="beforeInteractive"
+      />
+      
+      <Script
         src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"
         strategy="beforeInteractive"
       />            
