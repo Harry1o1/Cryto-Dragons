@@ -245,7 +245,13 @@ button{background: red;}
 
 .wallet-adapter-button *{
     
-    background: red !important;
-    color: red !important;
+    /* background: red !important; */
+    /* color: red !important; */
     
 }
+.wallet-adapter-dropdown-list-active{
+    
+    
+    z-index: 100000px !important;
+    background: red !important;
+}    
