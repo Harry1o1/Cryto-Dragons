@@ -147,8 +147,13 @@ export const Layout = ({ children }) => {
                   </li> */}
                   
                         <li className="ss-li" id="ss-li1">
+                            <Link passHref href="/home">
+                                
+                                <ion-icon name="home-outline"></ion-icon>
+                                
+                            </Link>                            
                             
-                            <ion-icon name="home-outline"></ion-icon>
+                            
                             <Link passHref href="/home">
                                 
                                 <a href="#">Home</a>
@@ -157,8 +162,13 @@ export const Layout = ({ children }) => {
                             
                         </li>
                         <li className="ss-li" id="ss-li1">
-                        <ion-icon name="baseball-outline"></ion-icon>       
-                                                     
+                        
+                            <Link passHref href="/arena">
+                        
+                                <ion-icon name="baseball-outline"></ion-icon>       
+
+                            </Link>    
+                            
                             <Link passHref href="/arena">
                         
                                 <a href="#">Arena</a>
@@ -167,8 +177,15 @@ export const Layout = ({ children }) => {
                             
                         </li>
                         <li className="ss-li" id="ss-li1">
+                        
+                            <Link passHref href="/marketplace">
+                        
                             
-                            <ion-icon name="pricetag-outline"></ion-icon> 
+                                <ion-icon name="pricetag-outline"></ion-icon> 
+                            </Link>                            
+                            
+                            
+                            
                             <Link passHref href="/marketplace">
                                 
                                 <a href="#">Marketplace</a>
@@ -178,7 +195,13 @@ export const Layout = ({ children }) => {
                         </li>
                         <li className="ss-li" id="ss-li1">
                             
+                                                        <Link passHref href="/dragon_language">
+
                             <ion-icon name="language-outline"></ion-icon>
+                            
+                                                        </Link>                            
+
+                            
                             <Link passHref href="/dragon_language">
                                 
                                 <a href="#">Dragon Language</a>
@@ -190,11 +213,15 @@ export const Layout = ({ children }) => {
                         <li className="ss-li" id="ss-li2">
                             
                             
-                            
+                                                        <Link passHref href="/exchange">
+
                             
                                 
                                 <ion-icon name="cash-outline"></ion-icon>
-                                
+                                                            </Link>                        
+
+
+
                                 
                             <Link passHref href="/exchange">
                                 
@@ -204,9 +231,14 @@ export const Layout = ({ children }) => {
                         </li>
                         <li className="ss-li" id="ss-li2">
                             
-                            
+                                                        <Link passHref href="/nft">
+
                             
                                 <ion-icon name="diamond-outline"></ion-icon>
+                                
+                                
+                                                            </Link>                            
+
                             
                             <Link passHref href="/nft">
                             
@@ -220,9 +252,13 @@ export const Layout = ({ children }) => {
                         <li className="ss-li" id="ss-li2">
                             
                             
-                            
+                                                        <Link passHref href="/stack">
+
                                 <ion-icon name="analytics-outline"></ion-icon>
                             
+                            
+                                                        </Link>                            
+
                             <Link passHref href="/stack">
                                 <a href="#">Stack</a>
                                 
@@ -234,10 +270,12 @@ export const Layout = ({ children }) => {
                         </li>
                         <li className="ss-li" id="ss-li2">
                             
-                            
+                                                        <Link passHref href="/airdrop">
+
                             
                                 <ion-icon name="egg-outline"></ion-icon>
-                            
+                                                        </Link>                            
+
                             <Link passHref href="/airdrop">
                                 
                             
@@ -248,10 +286,12 @@ export const Layout = ({ children }) => {
                             </li>
                         <li className="ss-li" id="ss-li3">
                             
-                            
+                                                        <Link passHref href="/ido_event">
+
                             
                                 <ion-icon name="medal-outline"></ion-icon>
-                            
+                                                        </Link>                            
+
                             <Link passHref href="/ido_event">
                                 
                                 
@@ -262,7 +302,13 @@ export const Layout = ({ children }) => {
                             
                         </li>
                         <li className="ss-li" id="ss-li4">
+                        
+                        
+                                                    <Link passHref href="/ido">
+
+                        
                             <ion-icon name="ribbon-outline"></ion-icon>
+                            </Link>                            
 
                             <Link passHref href="/ido">
 
@@ -275,9 +321,11 @@ export const Layout = ({ children }) => {
                             
                             
                             
-                            
+                                                        <Link passHref href="/gamefi">
+
                                 <ion-icon name="game-controller-outline"></ion-icon>
-                            
+                                                        </Link>                            
+
                             <Link passHref href="/gamefi">
                                 
                             
@@ -288,9 +336,11 @@ export const Layout = ({ children }) => {
                             </li>
                         <li className="ss-li" id="ss-li7">
                             
-                            
+                                                        <Link passHref href="/support_ukrane">
+
                                 <ion-icon name="sparkles-outline"></ion-icon>
-                            
+                                                        </Link>                            
+
                             
                             <Link passHref href="/support_ukrane">
                                 
