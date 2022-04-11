@@ -40,12 +40,12 @@
 }
 
 
-#pro_navbartop_container img{
+/* #pro_navbartop_container img{
     
     min-height: 45px;
     min-width: 45px;
     
-}
+} */
 
 
 #pro_navbartop_container ul {
@@ -206,7 +206,7 @@ overflow-x: hidden;
     #pro_navbartop_container ul{
         
         
-        grid-template-columns: 40px 35px 35px auto 225px;
+        grid-template-columns: 40px 35px 35px auto 250px;
         grid-gap: 25px;
     }
 
