@@ -72,6 +72,10 @@ export const Layout = ({ children }) => {
         <li className="pnt_divider pnt-li3 ">
           <div id="pnt-lg" className="pnt-it">
             {/* <img src="./jrzy-logo.png" alt="logo"> */}
+            
+            
+                    <img src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/jrzy-logo.png" alt="logo" />
+            
           </div>
         </li>
 
