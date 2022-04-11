@@ -673,17 +673,20 @@ export const Layout = ({ children }) => {
       />
       
       <Script
-       src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/main.js"
+       src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/main1o2.js"
         strategy="beforeInteractive"
       />
-      <Script
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/drag-drop-card/assets/js/main.js"
-        strategy="beforeInteractive"
-      />
+      
       <Script
         src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"
         strategy="beforeInteractive"
       />            
+
+      
+      <Script
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/drag-drop-card/assets/js/main.js"
+        strategy="beforeInteractive"
+      />
        
     <Head>
         <title>Crypto-Dragons</title>
