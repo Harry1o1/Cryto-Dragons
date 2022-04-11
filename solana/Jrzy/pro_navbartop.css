@@ -530,6 +530,12 @@ flex-direction: row !important;
   
   padding: 0 !important;
 }
+.wallet-adapter-button *{
+    
+    background: red !important;
+    color: red !important;
+    
+}
 
 
 
