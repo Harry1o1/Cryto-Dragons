@@ -398,7 +398,7 @@ export const Layout = ({ children }) => {
     <div className="drop__container" id="drop-items">
       <div className="drop__card">
         <div className="drop__data">
-          <img src="../../public/img3.jpg" alt className="drop__img" />
+          <img src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/public/img3.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -412,7 +412,7 @@ export const Layout = ({ children }) => {
       </div>
       <div className="drop__card">
         <div className="drop__data">
-          <img src="../../public/img3.jpg" alt className="drop__img" />
+          <img src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/public/img3.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -426,7 +426,7 @@ export const Layout = ({ children }) => {
       </div>
       <div className="drop__card">
         <div className="drop__data">
-          <img src="../../public/img3.jpg" alt className="drop__img" />
+          <img src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/public/img2.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -438,9 +438,11 @@ export const Layout = ({ children }) => {
           <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
         </div>
       </div>
+      
+      
       <div className="drop__card">
         <div className="drop__data">
-          <img src="../../public/img3.jpg" alt className="drop__img" />
+          <img src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/public/img3.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Robbie Ford</h1>
             <span className="drop__profession">Ui/Ux design</span>
@@ -452,9 +454,11 @@ export const Layout = ({ children }) => {
           <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
         </div>
       </div>
+      
+      
       <div className="drop__card">
         <div className="drop__data">
-          <img src="../../public/img4.jpg" alt className="drop__img" />
+          <img src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/public/img4.jpg" alt className="drop__img" />
           <div>
             <h1 className="drop__name">Jenny Lit</h1>
             <span className="drop__profession">Digital marketing</span>
