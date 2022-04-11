@@ -50,20 +50,14 @@ export const Layout = ({ children }) => {
           <ion-icon name="moon-outline" />
         </div>
       </li>
-      
-        <li className="pnt-li pnt-li2 notifications-toggler">
-          <div className="pnt-it notifications-tg" id="pnt-it2">
-            <div className="main-ic">
-              <ion-icon className="pnt-it2" name="notifications-outline" id="pnt-in" />
-              <ion-icon className="pnt-it2" name="close-outline" id="pnt-in" />
-            </div>
-            <div className="high-lighter">1</div>
-          </div>
-          {/* <img srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> */}
-        </li>      
-        
-        
-        <li className="pnt_divider pnt-li3 ">
+      <li className="pnt-li pnt-li2 notifications-toggler">
+        <div className="pnt-it" id="pnt-it2">
+          <ion-icon className="pnt-it2" name="notifications-outline" id="pnt-in" />
+          <ion-icon className="pnt-it2" name="close-outline" id="pnt-in" />
+        </div>
+        {/* <img srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> */}
+      </li>
+      <li className="pnt_divider pnt-li3 ">
         <div id="pnt-lg" className="pnt-it">
           {/* <img src="./jrzy-logo.png" alt="logo"> */}
         </div>
@@ -409,87 +403,82 @@ export const Layout = ({ children }) => {
       </div>
   </div> */}
   </div>
-  
-  
-  
-  
-  
-  
-    { /* Notifications Container     #notifications-container>ul#n-ul>li.n-li.n-li$**/ }
-    <div className="drop notifications-container">
-      <div className="drop__container" id="drop-items">
-        <div className="drop__card">
-          <div className="drop__data">
-            <img src="../public/img3.jpg" height={50} width={50} alt className="drop__img" />
-            <div>
-              <h1 className="drop__name">Robbie Ford</h1>
-              <span className="drop__profession">Ui/Ux design</span>
-            </div>
-          </div>
+  {/* Notifications Container     #notifications-container>ul#n-ul>li.n-li.n-li$**/}
+  <div className="drop notifications-container">
+    <div className="drop__container" id="drop-items">
+      <div className="drop__card">
+        <div className="drop__data">
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
-            <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+            <h1 className="drop__name">Robbie Ford</h1>
+            <span className="drop__profession">Ui/Ux design</span>
           </div>
         </div>
-        <div className="drop__card">
-          <div className="drop__data">
-            <img src="../public/img3.jpg" height={50} width={50} alt className="drop__img" />
-            <div>
-              <h1 className="drop__name">Robbie Ford</h1>
-              <span className="drop__profession">Ui/Ux design</span>
-            </div>
-          </div>
+        <div>
+          <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+        </div>
+      </div>
+      <div className="drop__card">
+        <div className="drop__data">
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
-            <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+            <h1 className="drop__name">Robbie Ford</h1>
+            <span className="drop__profession">Ui/Ux design</span>
           </div>
         </div>
-        <div className="drop__card">
-          <div className="drop__data">
-            <img src="../public/img3.jpg" height={50} width={50} alt className="drop__img" />
-            <div>
-              <h1 className="drop__name">Robbie Ford</h1>
-              <span className="drop__profession">Ui/Ux design</span>
-            </div>
-          </div>
+        <div>
+          <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+        </div>
+      </div>
+      <div className="drop__card">
+        <div className="drop__data">
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
-            <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+            <h1 className="drop__name">Robbie Ford</h1>
+            <span className="drop__profession">Ui/Ux design</span>
           </div>
         </div>
-        <div className="drop__card">
-          <div className="drop__data">
-            <img src="../public/img3.jpg" alt height={50} width={50} className="drop__img" />
-            <div>
-              <h1 className="drop__name">Robbie Ford</h1>
-              <span className="drop__profession">Ui/Ux design</span>
-            </div>
-          </div>
+        <div>
+          <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+        </div>
+      </div>
+      <div className="drop__card">
+        <div className="drop__data">
+          <img src="./drag-drop-card/assets/img/img3.jpg" alt className="drop__img" />
           <div>
-            <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+            <h1 className="drop__name">Robbie Ford</h1>
+            <span className="drop__profession">Ui/Ux design</span>
           </div>
         </div>
-        <div className="drop__card">
-          <div className="drop__data">
-            <img src="../public/img4.jpg" height={50} width={50} alt className="drop__img" />
-            <div>
-              <h1 className="drop__name">Jenny Lit</h1>
-              <span className="drop__profession">Digital marketing</span>
-            </div>
-          </div>
+        <div>
+          <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+        </div>
+      </div>
+      <div className="drop__card">
+        <div className="drop__data">
+          <img src="./drag-drop-card/assets/img/img4.jpg" alt className="drop__img" />
           <div>
-            <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
-            <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
+            <h1 className="drop__name">Jenny Lit</h1>
+            <span className="drop__profession">Digital marketing</span>
           </div>
+        </div>
+        <div>
+          <a href="#" className="drop__social"><i className="bx bxl-instagram" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-facebook" /></a>
+          <a href="#" className="drop__social"><i className="bx bxl-twitter" /></a>
         </div>
       </div>
     </div>
+  </div>
+
 
 
 
@@ -700,18 +689,24 @@ export const Layout = ({ children }) => {
       />
       
       <Script
-      
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Cryto-Dragons/solana/Jrzy/main1o1.js"
+       src="https://cdn.jsdelivr.net/gh/Harry1o1/Crypto-Dragons/solana/Jrzy/main.js"
         strategy="beforeInteractive"
       />
-      
+      <Script
+       src="https://cdn.jsdelivr.net/gh/Harry1o1/Crypto-Dragons/solana/Jrzy/drag-drop-card/assets/js/main.js"
+        strategy="beforeInteractive"
+      />
+      <Script
+       src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"
+        strategy="beforeInteractive"
+      />            
        
     <Head>
         <title>flag-network</title>
         <meta name="description" content="Generated by create next app" />
         <link rel="stylesheet" href="https://unpkg.com/open-props"/>
         <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
-       
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Harry1o1/Crypto-Dragons/solana/Jrzy/drag-drop-card/assets/css/styles.css"/> 
         
         
     </Head>
