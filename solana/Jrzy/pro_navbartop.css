@@ -53,7 +53,7 @@
   overflow-x: auto;
 overflow-x: hidden;  
     display: grid;
-    grid-template-columns: 40px 35px 35px 1px auto;
+    grid-template-columns: 40px 35px 35px 25px auto;
     column-gap: 13px;
 
     height: 70px;
@@ -199,15 +199,15 @@ overflow-x: hidden;
     #pnt-lg img{
         
         
-        height: 60px !important;
-        width: 60px !important;
+        height: 55px !important;
+        width: 55px !important;
     }
 
     
     #pro_navbartop_container ul{
         
         
-        grid-template-columns: 40px 35px 35px auto 250px;
+        grid-template-columns: 40px 35px 35px auto 150px;
         grid-gap: 25px;
     }
 
@@ -330,7 +330,7 @@ overflow-x: hidden;
   align-items: center;
   justify-content: right;
   flex-direction: row !important;
-   column-gap: 1px;
+  column-gap: 1px;
    
    
 }
@@ -522,6 +522,7 @@ flex-direction: row !important;
   justify-content: center;
   
   width: 100%;
+  max-width: 150px;
   
   text-overflow: ellipsis;
   text-align: center;
