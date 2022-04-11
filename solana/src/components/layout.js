@@ -69,6 +69,12 @@ export const Layout = ({ children }) => {
         </li>
 
 
+        <li className="pnt_divider pnt-li3 ">
+          <div id="pnt-lg" className="pnt-it">
+            {/* <img src="./jrzy-logo.png" alt="logo"> */}
+          </div>
+        </li>
+
         {/* Wallet & Settings */}
         <div className="navbar-end ">
           <div className="dropdown psd-toggler">

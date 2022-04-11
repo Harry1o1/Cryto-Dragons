@@ -206,7 +206,7 @@ overflow-x: hidden;
     #pro_navbartop_container ul{
         
         
-        /* grid-template-columns: 40px 35px 35px auto 225px; */
+        grid-template-columns: 40px 35px 35px auto 225px;
         grid-gap: 25px;
     }
 
