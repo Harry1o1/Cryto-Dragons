@@ -537,6 +537,7 @@ flex-direction: row !important;
 }
 .wallet-adapter-button *{
     
+    z-index: 20000 !important;
     background: red !important;
     color: red !important;
     
